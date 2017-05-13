@@ -1,0 +1,11 @@
+<div class="row">
+    <div *ngFor="let bookList of lists" 
+        class="col-md-4"
+        [class.selected]="bookList === selectedBookList"
+        (click)="onSelect(bookList)"
+    >
+        <app-bookList [bookList]=bookList></app-bookList>
+    </div>
+</div>
+
+<app-books [selectedBookList]=selectedBookList></app-books>

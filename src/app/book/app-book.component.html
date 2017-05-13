@@ -1,0 +1,21 @@
+<div 
+  *ngIf="book" 
+  class="sigle_book"
+  >
+  <h3 class="sigle_book_title">
+    {{book.title}}
+  </h3>
+  <p class="sigle_book_rank">
+    This Week's Rank: <span>{{book.rank}}</span>
+  </p>
+  <p>
+    Author: <span>{{book.author}}</span>
+  </p>
+  <p>
+    Description: <span>{{book.description}}</span>
+  </p>
+  <p>
+    <a href='{{book.url}}'>Find it on Amazon</a>
+  </p>
+</div>
+

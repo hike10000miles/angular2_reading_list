@@ -1,0 +1,13 @@
+.sigle_book {
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sigle_book_title {
+    text-align: center;
+}
+
+.sigle_book p {
+    text-align: center;
+}

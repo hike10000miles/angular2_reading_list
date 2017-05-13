@@ -1,0 +1,704 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2017 The New York Times Company. All Rights Reserved.",
+    num_results: 15,
+    last_modified: "2017-04-24T17:00:10-04:00",
+    results: [
+        {
+            list_name: "Combined Print and E-Book Nonfiction",
+            display_name: "Combined Print & E-Book Nonfiction",
+            bestsellers_date: "2017-04-15",
+            published_date: "2017-04-30",
+            rank: 1,
+            rank_last_week: 1,
+            weeks_on_list: 3,
+            asterisk: 0,
+            dagger: 0,
+            amazon_product_url: "https://www.amazon.com/Old-School-Life-Sane-Lane/dp/1250135796?tag=thenewyorktim-20",
+            isbns: [
+                {
+                    isbn10: "1250135796",
+                    isbn13: "9781250135797"
+                },
+                {
+                    isbn10: "125013580X",
+                    isbn13: "9781250135803"
+                }
+            ],
+            book_details: [
+                {
+                    title: "OLD SCHOOL",
+                    description: "A defense of “old school” traditional values versus “snowflakes.",
+                    contributor: "by Bill O'Reilly and Bruce Feirstein",
+                    author: "Bill O'Reilly and Bruce Feirstein",
+                    contributor_note: "",
+                    price: 0,
+                    age_group: "",
+                    publisher: "Holt",
+                    primary_isbn13: "9781250135797",
+                    primary_isbn10: "1250135796"
+                }
+            ],
+            reviews: [
+                {
+                    book_review_link: "",
+                    first_chapter_link: "",
+                    sunday_review_link: "",
+                    article_chapter_link: ""
+                }
+            ]
+        },
+        {
+            list_name: "Combined Print and E-Book Nonfiction",
+            display_name: "Combined Print & E-Book Nonfiction",
+            bestsellers_date: "2017-04-15",
+            published_date: "2017-04-30",
+            rank: 2,
+            rank_last_week: 2,
+            weeks_on_list: 10,
+            asterisk: 0,
+            dagger: 0,
+            amazon_product_url: "http://www.amazon.com/The-Zookeepers-Wife-War-Story/dp/039333306X?tag=thenewyorktim-20",
+            isbns: [
+                {
+                    isbn10: "039333306X",
+                    isbn13: "9780393333060"
+                },
+                {
+                    isbn10: "0393354253",
+                    isbn13: "9780393354256"
+                },
+                {
+                    isbn10: "0393069354",
+                    isbn13: "9780393069358"
+                },
+                {
+                    isbn10: "0393354261",
+                    isbn13: "9780393354263"
+                },
+                {
+                    isbn10: "0393061728",
+                    isbn13: "9780393061727"
+                }
+            ],
+            book_details: [
+                {
+                    title: "THE ZOOKEEPER'S WIFE",
+                    description: "How a Warsaw couple sheltered Jews and members of the Resistance during World War II. Originally published in 2007; now the basis of a movie,",
+                    contributor: "by Diane Ackerman",
+                    author: "Diane Ackerman",
+                    contributor_note: "",
+                    price: 0,
+                    age_group: "",
+                    publisher: "Norton",
+                    primary_isbn13: "9780393354256",
+                    primary_isbn10: "0393354253"
+                }
+            ],
+            reviews: [
+                {
+                    book_review_link: "",
+                    first_chapter_link: "",
+                    sunday_review_link: "https://www.nytimes.com/2007/09/09/books/review/Max-t.html",
+                    article_chapter_link: ""
+                }
+            ]
+        },
+        {
+            list_name: "Combined Print and E-Book Nonfiction",
+            display_name: "Combined Print & E-Book Nonfiction",
+            bestsellers_date: "2017-04-15",
+            published_date: "2017-04-30",
+            rank: 3,
+            rank_last_week: 4,
+            weeks_on_list: 38,
+            asterisk: 0,
+            dagger: 0,
+            amazon_product_url: "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20",
+            isbns: [
+                 {
+                    isbn10: "0062300547",
+                    isbn13: "9780062300546"
+                },
+                            {
+            isbn10: "0062300563",
+            isbn13: "9780062300560"
+                            },
+                            {
+            isbn10: "141049666X",
+            isbn13: "9781410496669"
+                            },
+                            {
+            isbn10: "0062300555",
+            isbn13: "9780062300553"
+                            }
+                        ],
+            book_details: [
+                            {
+            title: "HILLBILLY ELEGY",
+            description: "A Yale Law School graduate looks at the struggles of the white working class through the story of his own childhood.",
+            contributor: "by J. D. Vance",
+            author: "J D Vance",
+            contributor_note: "",
+            price: 0,
+            age_group: "",
+            publisher: "HarperCollins",
+            primary_isbn13: "9780062300546",
+            primary_isbn10: "0062300547"
+                            }
+                        ],
+            reviews: [
+                            {
+            book_review_link: "",
+            first_chapter_link: "",
+            sunday_review_link: "",
+            article_chapter_link: ""
+                            }
+                        ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 4,
+rank_last_week: 6,
+weeks_on_list: 18,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "006236359X",
+isbn13: "9780062363596"
+                },
+                {
+isbn10: "0062363611",
+isbn13: "9780062363619"
+                },
+                {
+isbn10: "0062363603",
+isbn13: "9780062363602"
+                },
+                {
+isbn10: "0062466445",
+isbn13: "9780062466440"
+                }
+            ],
+book_details: [
+                {
+title: "HIDDEN FIGURES",
+description: "The story of the black women mathematicians at then-segregated NASA and its precursor. The basis of the movie.",
+contributor: "by Margot Lee Shetterly",
+author: "Margot Lee Shetterly",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Morrow/HarperCollins",
+primary_isbn13: "9780062363602",
+primary_isbn10: "0062363603"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 5,
+rank_last_week: 0,
+weeks_on_list: 1,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/True-Jesus-Uncovering-Divinity-Gospels/dp/162157637X?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "162157637X",
+isbn13: "9781621576372"
+                }
+            ],
+book_details: [
+                {
+title: "THE TRUE JESUS",
+description: "The four Gospel stories are combined into a unified account.",
+contributor: "by David Limbaugh",
+author: "David Limbaugh",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Regnery",
+primary_isbn13: "9781621576372",
+primary_isbn10: "162157637X"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 6,
+rank_last_week: 10,
+weeks_on_list: 31,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "http://www.amazon.com/Killing-Rising-Sun-America-Vanquished-ebook/dp/B01CNTUGF4?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "1627790624",
+isbn13: "9781627790628"
+                },
+                {
+isbn10: "1627790632",
+isbn13: "9781627790635"
+                },
+                {
+isbn10: "1427275866",
+isbn13: "9781427275868"
+                },
+                {
+isbn10: "1410493547",
+isbn13: "9781410493545"
+                }
+            ],
+book_details: [
+                {
+title: "KILLING THE RISING SUN",
+description: "The host of “The O’Reilly Factor” recounts the final years of World War II.",
+contributor: "by Bill O'Reilly and Martin Dugard",
+author: "Bill O'Reilly and Martin Dugard",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Holt",
+primary_isbn13: "9781627790628",
+primary_isbn10: "1627790624"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 7,
+rank_last_week: 11,
+weeks_on_list: 60,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi-ebook/dp/B00XSSYR50?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "081298840X",
+isbn13: "9780812988406"
+                },
+                {
+isbn10: "0812988418",
+isbn13: "9780812988413"
+                },
+                {
+isbn10: "1410487857",
+isbn13: "9781410487858"
+                }
+            ],
+book_details: [
+                {
+title: "WHEN BREATH BECOMES AIR",
+description: "A memoir by a physician who received a diagnosis of Stage IV lung cancer at the age of 36.",
+contributor: "by Paul Kalanithi",
+author: "Paul Kalanithi",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Random House",
+primary_isbn13: "9780812988406",
+primary_isbn10: "081298840X"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 8,
+rank_last_week: 0,
+weeks_on_list: 1,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/American-Sickness-Healthcare-Became-Business/dp/1594206759?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "1594206759",
+isbn13: "9781594206757"
+                },
+                {
+isbn10: "0698407180",
+isbn13: "9780698407183"
+                }
+            ],
+book_details: [
+                {
+title: "AN AMERICAN SICKNESS",
+description: "How health care became a highly profitable business.",
+contributor: "by Elisabeth Rosenthal",
+author: "Elisabeth Rosenthal",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Penguin Press",
+primary_isbn13: "9781594206757",
+primary_isbn10: "1594206759"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "https://www.nytimes.com/2017/04/04/books/review/an-american-sickness-elisabeth-rosenthal.html",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 9,
+rank_last_week: 3,
+weeks_on_list: 2,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/Hallelujah-Anyway-Rediscovering-Anne-Lamott/dp/0735213585?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "0735213585",
+isbn13: "9780735213586"
+                },
+                {
+isbn10: "1524756164",
+isbn13: "9781524756161"
+                }
+            ],
+book_details: [
+                {
+title: "HALLELUJAH ANYWAY",
+description: "The importance of mercy in our lives.",
+contributor: "by Anne Lamott",
+author: "Anne Lamott",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Riverhead",
+primary_isbn13: "9780735213586",
+primary_isbn10: "0735213585"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 10,
+rank_last_week: 8,
+weeks_on_list: 2,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/Prince-Charles-Passions-Paradoxes-Improbable/dp/1400067901?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "1400067901",
+isbn13: "9781400067909"
+                },
+                {
+isbn10: "0812988434",
+isbn13: "9780812988437"
+                }
+            ],
+book_details: [
+                {
+title: "PRINCE CHARLES",
+description: "A life of the heir to the British throne, by the author of biographies of Queen Elizabeth II and Diana, Princess of Wales.",
+contributor: "by Sally Bedell Smith",
+author: "Sally Bedell Smith",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Random House",
+primary_isbn13: "9781400067909",
+primary_isbn10: "1400067901"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 11,
+rank_last_week: 5,
+weeks_on_list: 2,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/Most-Beautiful-My-Life-Prince/dp/0316468975?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "0316468975",
+isbn13: "9780316468978"
+                },
+                {
+isbn10: "0316468967",
+isbn13: "9780316468961"
+                }
+            ],
+book_details: [
+                {
+title: "THE MOST BEAUTIFUL",
+description: "A reminiscence by Prince’s first wife.",
+contributor: "by Mayte Garcia",
+author: "Mayte Garcia",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Hachette Books",
+primary_isbn13: "9780316468978",
+primary_isbn10: "0316468975"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 12,
+rank_last_week: 0,
+weeks_on_list: 1,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/Return-King-Cleveland-Cavaliers-Greatest/dp/1478971681?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "1478971681",
+isbn13: "9781478971689"
+                },
+                {
+isbn10: "1538759683",
+isbn13: "9781538759684"
+                }
+            ],
+book_details: [
+                {
+title: "RETURN OF THE KING",
+description: "LeBron James’s return to the Cleveland Cavaliers and the effort to build a championship team.",
+contributor: "by Brian Windhorst and Dave McMenamin",
+author: "Brian Windhorst and Dave McMenamin",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Grand Central",
+primary_isbn13: "9781478971689",
+primary_isbn10: "1478971681"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 13,
+rank_last_week: 0,
+weeks_on_list: 1,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/Letterman-Last-Giant-Late-Night/dp/0062377213?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "0062377213",
+isbn13: "9780062377210"
+                },
+                {
+isbn10: "0062377248",
+isbn13: "9780062377241"
+                }
+            ],
+book_details: [
+                {
+title: "LETTERMAN",
+description: "An examination of the comedian’s life and his cultural impact.",
+contributor: "by Jason Zinoman",
+author: "Jason Zinoman",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Harper/HarperCollins",
+primary_isbn13: "9780062377210",
+primary_isbn10: "0062377213"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "https://www.nytimes.com/2017/04/10/books/review/letterman-biography-jason-zinoman.html",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 14,
+rank_last_week: 0,
+weeks_on_list: 18,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "http://www.amazon.com/Book-Joy-Lasting-Happiness-Changing/dp/0399185046?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "None",
+isbn13: "9780143177289"
+                },
+                {
+isbn10: "0399185046",
+isbn13: "9780399185045"
+                }
+            ],
+book_details: [
+                {
+title: "THE BOOK OF JOY",
+description: "A discussion between two spiritual leaders about how to find joy in the face of suffering.",
+contributor: "by Dalai Lama and Desmond Tutu",
+author: "Dalai Lama and Desmond Tutu",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Avery",
+primary_isbn13: "9780399185045",
+primary_isbn10: "0399185046"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        },
+        {
+list_name: "Combined Print and E-Book Nonfiction",
+display_name: "Combined Print & E-Book Nonfiction",
+bestsellers_date: "2017-04-15",
+published_date: "2017-04-30",
+rank: 15,
+rank_last_week: 7,
+weeks_on_list: 6,
+asterisk: 0,
+dagger: 0,
+amazon_product_url: "https://www.amazon.com/Tyranny-Twenty-Lessons-Twentieth-Century/dp/0804190119?tag=thenewyorktim-20",
+isbns: [
+                {
+isbn10: "0804190119",
+isbn13: "9780804190114"
+                },
+                {
+isbn10: "0804190127",
+isbn13: "9780804190121"
+                }
+            ],
+book_details: [
+                {
+title: "ON TYRANNY",
+description: "Twenty lessons from the 20th century about the course of tyranny.",
+contributor: "by Timothy Snyder",
+author: "Timothy Snyder",
+contributor_note: "",
+price: 0,
+age_group: "",
+publisher: "Tim Duggan",
+primary_isbn13: "9780804190114",
+primary_isbn10: "0804190119"
+                }
+            ],
+reviews: [
+                {
+book_review_link: "",
+first_chapter_link: "",
+sunday_review_link: "",
+article_chapter_link: ""
+                }
+            ]
+        }
+    ]
+}

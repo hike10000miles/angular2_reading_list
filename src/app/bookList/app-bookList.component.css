@@ -1,0 +1,9 @@
+.bookList {
+    margin: 10px 0;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+.bookList p {
+    text-align: center;
+}
