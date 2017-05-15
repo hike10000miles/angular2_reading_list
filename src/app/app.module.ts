@@ -1,6 +1,6 @@
-import { BookReviewComponent } from './bookReview/app-bookReview.component';
-import { BookReviewService } from './booReview.service';
-import { BookReview } from './IBookReview';
+import { AppRoutingModule } from './app-routing.module';
+import { BookTitlePipe } from './bookTitle.pipe';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { BookListComponent } from './bookList/app-bookList.component';
 import { BookListService } from './bookList.service';
 import { BookService } from './book.service';
@@ -12,25 +12,27 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BookComponent } from './book/app-book.component';
 import { BookListsComponent } from "app/bookLists/app-bookLists.component";
+import { RouterModule } from "@angular/router";
 
 @NgModule({
   declarations: [
     AppComponent,
+    DashboardComponent,
     BookComponent,
     BooksComponent,
     BookListComponent,
     BookListsComponent,
-    BookReviewComponent
+    BookTitlePipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [
     BookService,
-    BookListService,
-    BookReviewService
+    BookListService
     ],
   bootstrap: [AppComponent]
 })

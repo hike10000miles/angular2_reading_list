@@ -1,7 +1,19 @@
-<div class="">
-    <div class="container">
-        <h1>What is everyone reading?</h1>
-        <h2>The Lastest Bestseller From the New York Time</h2>
-        <app-bookLists></app-bookLists>
-    </div>
+
+<div class="title">
+    <h1>{{Title}}</h1>
+    <h2>{{TagLine}}</h2>
+</div>
+
+<div>
+    <a routerLink="/index">index</a>
+    <a routerLink="/allLists">All NY Times best seller lists</a>
+</div>
+
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<div>
+    
 </div>

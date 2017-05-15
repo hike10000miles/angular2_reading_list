@@ -1,6 +1,5 @@
 import { BookList } from './../IBookList';
 import { Component, Input } from '@angular/core';
-import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-bookList',

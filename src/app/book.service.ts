@@ -29,6 +29,9 @@ export class BookService {
         book.isbns = element['book_details'][0]['primary_isbn13'];
         book.title = element['book_details'][0]['title'];
         book.url = element['amazon_product_url'];
+        book.imgUrl = 'https://s1.nyt.com/du/books/images/' + element['book_details'][0]['primary_isbn13'] + '.jpg';
+        book.published_date = element['published_date'];
+        book.rank_last_week = element['rank_last_week'];
         arry.push(book);
       });
       return arry;

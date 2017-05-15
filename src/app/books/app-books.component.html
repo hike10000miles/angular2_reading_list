@@ -1,14 +1,15 @@
-<div class="row" *ngIf="selectedBookList">
-  <h2>
-  {{selectedBookList.list_name}}
-  </h2>
-  <div *ngFor="let book of books"
-    [class.selected]="book === selectedBook"
-    (click)="onSelect(book)" class="col-md-6 single_list_book">
-    <p>Rank this week: <span>{{book.rank}}</span></p>
-    <p><span class="">{{book.title}}</span> By: {{book.author}}</p>
+<div class="row">
+  <div class="col-sm-6">
+    <h2>
+    {{this.route.params.value.name}}
+    </h2>
+    <div *ngFor="let book of books"
+      [class.selected]="book === selectedBook"
+      (click)="onSelect(book)" class="single_list_book">
+      <p>Rank this week: <span>{{book.rank}}</span></p>
+      <p><span class="">{{book.title}}</span> By: {{book.author}}</p>
+    </div>
   </div>
+
+  <app-book [book]="selectedBook" (addtowant)="handleAdd($event)"></app-book>
 </div>
-<section>
-  <app-book [book]="selectedBook"></app-book>
-</section>

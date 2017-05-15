@@ -1,14 +1,18 @@
 import { BookService } from './../book.service';
 import { BookList } from './../IBookList';
 import { Book } from '../IBook';
-import { Component, Input } from '@angular/core';
-import { OnInit } from '@angular/core';
+import { Component, Input, OnInit, EventEmitter, } from '@angular/core';
+import { ActivatedRoute, Params }   from '@angular/router';
+import { Location }                 from '@angular/common';
+import 'rxjs/add/operator/switchMap';
+
 
 @Component({
   selector: 'app-books',
   templateUrl: './app-books.component.html',
   styleUrls: ['./app-books.component.css'],
 })
+
 export class BooksComponent implements OnInit{
   books: Book[];
 
@@ -16,19 +20,21 @@ export class BooksComponent implements OnInit{
 
   selectedBook: Book;
 
-  ngOnChanges():void {
-    if(this.selectedBookList) {
-      this.getBooks(this.selectedBookList.list_name_encoded);
-    }
+  handleAdd(event: Book):void {
+    console.log(event);
   }
 
   ngOnInit(): void {
-    
+    this.route.params
+      .switchMap((params: Params) => this.bookService.getBooks(params['name']))
+      .subscribe(books => this.books = books);
   }
 
-  constructor(private bookService: BookService) {
-    
-  }
+  constructor(
+    private bookService: BookService,
+    private route: ActivatedRoute,
+    private location: Location
+  ) { }
 
   onSelect(book: Book): void {
     this.selectedBook = book;

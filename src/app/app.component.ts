@@ -10,5 +10,6 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'app works!';
+  Title = "What Should I read next";
+  TagLine = "Build a reading list based on New York Times best seller.";
 }

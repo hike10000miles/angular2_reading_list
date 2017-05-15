@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import {Book} from '../IBook';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Book } from '../IBook';
 
 @Component({
   selector: 'app-book',
@@ -8,4 +8,9 @@ import {Book} from '../IBook';
 })
 export class BookComponent {
   @Input() book: Book;
+  @Output() addtowant: EventEmitter<Book> = new EventEmitter<Book>();
+
+  addToWant(): void {
+    this.addtowant.emit(this.book);
+  }
 }

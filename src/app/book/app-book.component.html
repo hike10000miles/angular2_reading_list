@@ -1,7 +1,8 @@
 <div 
-  *ngIf="book" 
-  class="sigle_book"
-  >
+  *ngIf="book"
+  class="col-md-6 sigle_book">
+  <img src='{{book.imgUrl}}' alt="Image not found!">
+
   <h3 class="sigle_book_title">
     {{book.title}}
   </h3>
@@ -9,7 +10,13 @@
     This Week's Rank: <span>{{book.rank}}</span>
   </p>
   <p>
+    Last Week's Rank: <span>{{book.rank_last_week}}</span>
+  </p>
+  <p>
     Author: <span>{{book.author}}</span>
+  </p>
+  <p>
+    Published On: <span>{{book.published_date}}</span>
   </p>
   <p>
     Description: <span>{{book.description}}</span>
@@ -17,5 +24,5 @@
   <p>
     <a href='{{book.url}}'>Find it on Amazon</a>
   </p>
+  <button (click)="addToWant()">Add to want list</button>
 </div>
-

@@ -5,4 +5,7 @@ export class Book {
     url: string;
     author: string;
     description: string;
+    imgUrl: string;
+    published_date: string;
+    rank_last_week: number;
 }
