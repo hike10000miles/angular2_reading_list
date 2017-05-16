@@ -1,0 +1,20 @@
+.wantList {
+    width: 30%;
+    background: #3E606F;
+    color: #fff;
+    border-radius: 5px;
+    clear: both;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    z-index: 10;
+}
+
+.wantList div {
+    padding: 20px;
+    border-bottom: 1px solid  white;
+}
+
+.wantList div a {
+    color: whitesmoke
+}

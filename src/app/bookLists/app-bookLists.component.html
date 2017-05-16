@@ -1,25 +1,31 @@
-<div class="row">
-    <div class="col-md-6">
-        <div *ngFor="let bookList of listsOnDisplay" 
-            class=""
-            [class.selected]="bookList === selectedBookList"
+<div class="row allList">
+
+    <div class="col-md-6 listView">
+        <div *ngFor="let bookList of listsOnDisplay"
+            [class.selectedBookList]="bookList === selectedBookList"
             (click)="onSelect(bookList)"
+            class="bookList"
         >
             <app-bookList [bookList]=bookList></app-bookList>
         </div>
-        <button (click)="previousSixLists()">Previous</button>
-        <button (click)="nextSixLists()">Next</button>
+
+        <div class="bookListButton">
+            <button class="btn btn-primary" (click)="previousSixLists()">Previous</button>
+            <button class="btn btn-primary" (click)="nextSixLists()">Next</button>
+        </div>
     </div>
+
     <div class="col-md-6">
         <div
             *ngIf="books"
-            class=""
+            class="listPreview"
         >
-            <p>Top 4 On {{selectedBookList.list_name}}</p>
-            <div *ngFor="let book of books">
-                <p><span>{{book.title | bookTitle}} </span> by {{book.author}}</p>
+            <h4>Top 4 On {{selectedBookList.list_name}}</h4>
+            <div *ngFor="let book of books" class="bookPreview">
+                <p><span class="bookTitle">{{book.title | bookTitle}} </span> by {{book.author}}</p>
             </div>
-            <a [routerLink]="['/list' , selectedBookList.list_name]">See the details of {{selectedBookList.list_name}}</a>
+            <button class="btn btn-primary" [routerLink]="['/list' , selectedBookList.list_name]">Details of {{selectedBookList.list_name}}</button>
         </div>
     </div>
+
 </div>

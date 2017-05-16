@@ -1,28 +1,34 @@
 <div 
   *ngIf="book"
   class="col-md-6 sigle_book">
-  <img src='{{book.imgUrl}}' alt="Image not found!">
 
-  <h3 class="sigle_book_title">
-    {{book.title}}
-  </h3>
-  <p class="sigle_book_rank">
-    This Week's Rank: <span>{{book.rank}}</span>
-  </p>
-  <p>
-    Last Week's Rank: <span>{{book.rank_last_week}}</span>
-  </p>
-  <p>
-    Author: <span>{{book.author}}</span>
-  </p>
-  <p>
-    Published On: <span>{{book.published_date}}</span>
-  </p>
-  <p>
-    Description: <span>{{book.description}}</span>
-  </p>
-  <p>
-    <a href='{{book.url}}'>Find it on Amazon</a>
-  </p>
-  <button (click)="addToWant()">Add to want list</button>
+  <div class="singleBookImg">
+     <img src='{{book.imgUrl}}' onerror="this.src='../assets/imgs/books.jpg'" alt="Image not found!">
+  </div>
+
+  <div class="singleBookDetail">
+    <h3 class="sigle_book_title">
+      {{book.title | bookTitle}}
+    </h3>
+    <p class="sigle_book_rank">
+      This Week's Rank: <span>{{book.rank}}</span>
+    </p>
+    <p>
+      Last Week's Rank: <span>{{book.rank_last_week}}</span>
+    </p>
+    <p>
+      Author: <span>{{book.author}}</span>
+    </p>
+    <p>
+      Enter List At: <span>{{book.enter_list_date}}</span>
+    </p>
+    <p>
+      Description: <span>{{book.description}}</span>
+    </p>
+    <p>
+      <a href='{{book.url}}'>Find it on Amazon</a>
+    </p>
+  </div>
+
+  <button class="btn btn-primary" (click)="addToWant()">Add to want list</button>
 </div>

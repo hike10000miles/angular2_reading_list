@@ -1,10 +1,8 @@
-<div>
-    <h3>Top Lists</h3>
-    <div>
-        <a *ngFor="let list of lists" [routerLink]="['/list' , list.list_name]">
-            <div>
-                <h4>{{list.list_name}}</h4>
-            </div>
-        </a>
+<div class="dashboard">
+    <h3>The most popular lists</h3>
+    <div class="row mostpopularlists">
+        <p *ngFor="let list of lists" class="col-md-6 mostpopularlist">
+            <a [routerLink]="['/list' , list.list_name]" class="mostpopular ">{{list.list_name}}</a>
+        </p>
     </div>
 </div>

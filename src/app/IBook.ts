@@ -8,4 +8,5 @@ export class Book {
     imgUrl: string;
     published_date: string;
     rank_last_week: number;
+    enter_list_date: string;
 }

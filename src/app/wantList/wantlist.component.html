@@ -1,0 +1,14 @@
+<div class="wantList">
+   <div *ngFor="let book of wantList">
+
+        <p>{{book.title | bookTitle}}</p>
+
+        <p>{{book.author}}</p>
+
+        <p>
+        <a href='{{book.url}}'>Find it on Amazon</a>
+        </p>
+
+        <button class="btn btn-danger" (click)="deleteFromList(book)">Delete</button>
+    </div> 
+</div>

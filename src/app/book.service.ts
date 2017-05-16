@@ -11,18 +11,19 @@ export class BookService {
         console.log(error);
     }
 
-    private apiEndpoint: string = "https://api.nytimes.com/svc/books/v3/lists.json?";
+    private apiEndpoint = 'https://api.nytimes.com/svc/books/v3/lists.json?';
 
-    private apikey: string = "api-key=130b1d07601d45f0a33c43da77d00461";
+    private apikey = "api-key=130b1d07601d45f0a33c43da77d00461";
 
     private books: Book[];
 
     constructor(private _http: Http) { }
 
-    processData(data):Book[] {
+    private processData(data):Book[] {
       let arry: Book[] = new Array<Book>();
       data.results.forEach(element => {
         let book: Book = new Book();
+        book.enter_list_date = element['bestsellers_date'];
         book.author = element['book_details'][0]['author'];
         book.rank = element['rank'];
         book.description = element['book_details'][0]['description'];
@@ -36,6 +37,10 @@ export class BookService {
       });
       return arry;
     }
+
+    private getDate(data): string {
+      return data.results[0]['published_date'];
+    }
     
     getBooks(listName: string): Promise<Book[]> {
       return this
@@ -44,5 +49,14 @@ export class BookService {
             .toPromise()
             .then(response => this.processData(response.json()))
             .catch(this.handleError);
+    }
+
+    getListByDate(listName: string, date: string): Promise<Book[]> {
+      return this
+      ._http
+      .get(this.apiEndpoint + this.apikey + "&list=" + listName + "&published-date=" + date)
+      .toPromise()
+      .then(response => this.processData(response.json()))
+      .catch(this.handleError);
     }
 }

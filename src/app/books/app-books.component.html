@@ -1,15 +1,24 @@
-<div class="row">
-  <div class="col-sm-6">
+<div class="row bookListFull">
+  <div class="col-sm-6 booksInList">
+
     <h2>
     {{this.route.params.value.name}}
     </h2>
-    <div *ngFor="let book of books"
-      [class.selected]="book === selectedBook"
-      (click)="onSelect(book)" class="single_list_book">
-      <p>Rank this week: <span>{{book.rank}}</span></p>
-      <p><span class="">{{book.title}}</span> By: {{book.author}}</p>
+
+    <p *ngIf="listDate">Published On {{listDate}}</p>
+
+    <button class="btn btn-primary" (click)="getLastWeekList()">Last Week</button>
+    <button class="btn btn-primary" *ngIf="listDate!=latestListDate" (click)="getNextWeekList()">Next Week</button>
+
+    <div class="booksInList_books">
+        <div *ngFor="let book of books"
+          [class.selectedBook]="book === selectedBook"
+          (click)="onSelect(book)" class="single_list_book">
+          <p>Rank this week: <span>{{book.rank}}</span></p>
+          <p><span class="">{{book.title | bookTitle}}</span> By: {{book.author}}</p>
+        </div>
+      </div>
     </div>
-  </div>
 
   <app-book [book]="selectedBook" (addtowant)="handleAdd($event)"></app-book>
 </div>

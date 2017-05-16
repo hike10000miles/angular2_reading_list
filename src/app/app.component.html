@@ -1,19 +1,25 @@
-
-<div class="title">
-    <h1>{{Title}}</h1>
-    <h2>{{TagLine}}</h2>
-</div>
-
-<div>
-    <a routerLink="/index">index</a>
-    <a routerLink="/allLists">All NY Times best seller lists</a>
-</div>
-
-
 <div class="container">
-    <router-outlet></router-outlet>
-</div>
+    <div class="title">
+        <div class="titleDetail">
+            <div class="titleHeading">
+                <h1>{{Title}}</h1>
+                <p>{{TagLine}}</p>
+            </div>
+            <button class="btn btn-info" (click)="toggleWantList()">WantList</button>
+            <app-wantlist 
+                *ngIf="showWantList"
+                [wantList]="wantList" 
+                class="placeholder"
+            ></app-wantlist> 
+        </div>
+        <ul class="nav nav-pills">
+            <li><a routerLink="/index">Index</a></li>
+            <li><a routerLink="/allLists">All lists</a></li>
+        </ul>
+    </div>
 
-<div>
-    
+    <div class="main">
+        <router-outlet></router-outlet>
+    </div>
+
 </div>

@@ -1,3 +1,4 @@
+import { BookService } from './../book.service';
 import { BookListService } from './../bookList.service';
 import { BookList } from './../IBookList';
 import { Component, OnInit } from '@angular/core';
@@ -8,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent implements OnInit{
-    lists: BookList[] = [];
+    lists: BookList[] = new Array<BookList>();
 
-    constructor(private bookListService: BookListService) { }
+    constructor(
+        private bookListService: BookListService,
+        private bookService: BookService
+    ) { }
 
     ngOnInit(): void {
         this.bookListService.getBooks()

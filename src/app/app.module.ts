@@ -1,3 +1,5 @@
+import { WantListComponent } from './wantList/wantlist.component';
+import { WantListService } from './want.service';
 import { AppRoutingModule } from './app-routing.module';
 import { BookTitlePipe } from './bookTitle.pipe';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -22,6 +24,7 @@ import { RouterModule } from "@angular/router";
     BooksComponent,
     BookListComponent,
     BookListsComponent,
+    WantListComponent,
     BookTitlePipe
   ],
   imports: [
@@ -32,7 +35,8 @@ import { RouterModule } from "@angular/router";
   ],
   providers: [
     BookService,
-    BookListService
+    BookListService,
+    WantListService
     ],
   bootstrap: [AppComponent]
 })

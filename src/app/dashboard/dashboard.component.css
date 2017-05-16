@@ -1,0 +1,28 @@
+.dashboard {
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.dashboard h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #D1DBBD;
+    padding: 25px 0;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+
+.mostpopularlist {
+    margin: 20px 0;
+    height: 50px;
+    text-align: center;
+}
+
+.mostpopular {
+    font-size: 25px;
+}
+
+.mostpopular:hover {
+    color: darkblue;
+}

@@ -1,0 +1,42 @@
+.allList {
+    padding: 20px 15px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0;
+}
+
+.listView {
+    background: #D1DBBD;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.listPreview {
+    background: #D1DBBD;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.listPreview h4 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bookTitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bookList {
+    background: #91AA9D;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+div.selectedBookList {
+    background: #fff;
+}
+
+.bookListButton {
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+.app {
+    width: 100%;
+}
+
+.title {
+    background-color: #fff;
+    padding-bottom: 10px;
+    color: darkblue;
+}
+
+.titleDetail{
+    border-radius: 3px;
+    padding: 20px 16px;
+    position: relative;
+}
+
+.title div button {
+    float: right;
+}
+
+.main {
+    padding: 10px;
+    background-color: #ebebeb;
+    border-radius: 3px;
+    min-height: 500px; 
+} 
+
+.titleHeading {
+    display: block;
+    width: 50%;
+    float: left;
+}
+ul.nav {
+    clear: both;
+}
