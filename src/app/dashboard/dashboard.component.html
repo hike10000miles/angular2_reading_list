@@ -5,4 +5,16 @@
             <a [routerLink]="['/list' , list.list_name]" class="mostpopular ">{{list.list_name}}</a>
         </p>
     </div>
+
+    <div class="row dashboardBooks">
+        <h3 class="dashboardBooksTitle">Most notables</h3>
+        <div *ngFor="let book of mostPopularBooks" class="col-md-3">
+            <img src='{{book.imgUrl}}' onerror="this.src='../assets/imgs/books.jpg'" alt="Image not found!">
+            <p>{{book.title | bookTitle}}</p>
+            <p>By {{book.author}}</p>
+            <p>
+                <a href='{{book.url}}' class="dashboardBookLink">Find it on Amazon</a>
+            </p>
+        </div>
+    </div>
 </div>

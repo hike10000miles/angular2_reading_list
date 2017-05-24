@@ -26,3 +26,17 @@
 .mostpopular:hover {
     color: darkblue;
 }
+
+.dashboardBooks h3.dashboardBooksTitle {
+    margin: 0 15px 20px 15px;
+    width: inherit;
+}
+
+.dashboardBooks div img{
+    height: 340px;
+    width: 240px;
+}
+
+a.dashboardBookLink {
+    color: darkblue;
+}
