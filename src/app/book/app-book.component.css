@@ -1,5 +1,6 @@
 .sigle_book {
     padding: 20px 15px;
+    margin-right: -15px;
 }
 
 .singleBookImg {
@@ -14,12 +15,13 @@
 .singleBookDetail {
     margin: 30px;
     padding: 20px 15px;
-    background: #D1DBBD;
+    background: #7986CB;
+    color: #fff;
     border-radius: 5px;
 }
 
 .singleBookDetail a {
-    color: darkblue;
+    color: #FFF9C4;
 }
 
 .sigle_book_title {

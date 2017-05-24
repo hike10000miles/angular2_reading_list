@@ -3,9 +3,21 @@
 }
 
 .title {
-    background-color: #fff;
+    background-color: #3F51B5;
     padding-bottom: 10px;
-    color: darkblue;
+    color: #fff;
+}
+
+.title a {
+    color: #fff;
+}
+
+.title a:hover {
+    background-color: #7986CB;
+}
+
+.title a:focus {
+    color: #000;
 }
 
 .titleDetail{
@@ -19,9 +31,6 @@
 }
 
 .main {
-    padding: 10px;
-    background-color: #ebebeb;
-    border-radius: 3px;
     min-height: 500px; 
 } 
 

@@ -7,8 +7,8 @@
 
     <p *ngIf="listDate">Published On {{listDate}}</p>
 
-    <button class="btn btn-primary" (click)="getLastWeekList()">Last Week</button>
-    <button class="btn btn-primary" *ngIf="listDate!=latestListDate" (click)="getNextWeekList()">Next Week</button>
+    <button class="btn btn-info" (click)="getLastWeekList()">Last Week</button>
+    <button class="btn btn-info" *ngIf="listDate!=latestListDate" (click)="getNextWeekList()">Next Week</button>
 
     <div class="booksInList_books">
         <div *ngFor="let book of books"

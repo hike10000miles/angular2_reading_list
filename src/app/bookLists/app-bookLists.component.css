@@ -1,18 +1,18 @@
 .allList {
-    padding: 20px 15px;
     overflow: hidden;
-    background-color: #fff;
     margin: 0;
 }
 
 .listView {
-    background: #D1DBBD;
+    background: #7986CB;
+    color: #fff;
     padding: 20px 20px;
     border-radius: 5px;
 }
 
 .listPreview {
-    background: #D1DBBD;
+    color: #fff;
+    background: #7986CB;
     padding: 20px;
     border-radius: 5px;
 }
@@ -28,13 +28,14 @@
 }
 
 .bookList {
-    background: #91AA9D;
+    background: #3D5AFE;
     border-radius: 5px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 5px 5px 10px #8C9EFF;
 }
 
 div.selectedBookList {
-    background: #fff;
+    background: #82B1FF;
+    color: #000;
 }
 
 .bookListButton {

@@ -1,8 +1,8 @@
 .wantList {
     width: 30%;
-    background: #3E606F;
-    color: #fff;
-    border-radius: 5px;
+    background: #FFECB3;
+    color: #000;
+    border-radius: 3px;
     clear: both;
     position: absolute;
     right: 0;
@@ -12,9 +12,9 @@
 
 .wantList div {
     padding: 20px;
-    border-bottom: 1px solid  white;
+    border-bottom: 1px solid  #000;
 }
 
 .wantList div a {
-    color: whitesmoke
+    color: #3F51B5;
 }
